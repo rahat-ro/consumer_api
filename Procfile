@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT app:app
+CC_PYTHON_MODULE="mymodule:app"
