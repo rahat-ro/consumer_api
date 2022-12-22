@@ -2,6 +2,7 @@ import json
 from flask import Flask, Response, request
 from bson import json_util
 from flask_pymongo import PyMongo
+from collections.abc import Mapping
 
 app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb+srv://chainAI:chain.ai@clusterrevenuechain.wi8m2.mongodb.net/consumer?retryWrites=true&w=majority"
